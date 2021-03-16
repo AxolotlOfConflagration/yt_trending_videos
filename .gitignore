@@ -1,6 +1,7 @@
 creds.json
 .vscode/
 config.json
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
