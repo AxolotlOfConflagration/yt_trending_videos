@@ -3,6 +3,7 @@ creds.json
 config.json
 models/
 data/images/
+data/kaggle/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
