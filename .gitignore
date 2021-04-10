@@ -6,6 +6,7 @@ data/images/
 data/kaggle/
 data/chkp2.pkl
 data/chkp12.pkl
+data/chkp12_filled.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
