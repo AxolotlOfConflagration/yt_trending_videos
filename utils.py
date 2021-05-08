@@ -27,7 +27,7 @@ class YTDownloader:
 
     def details_by_id(self, idx):
         request = self.youtube.videos().list(
-            part="snippet",
+            part="snippet,statistics,id",
             id=','.join(idx)
         )
         return request.execute()
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     yt = YTDownloader(config['apikey_alt'])
 
 
-    for _ in range(105):
+    for _ in range(200):
         Video = Query()
         with start_transaction() as db:
             doc = db.get(~(Video.related.exists()))
