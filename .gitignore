@@ -10,10 +10,15 @@ data/chkp12_filled.pkl
 data/chkp12_filled_nan.pkl
 hypper/
 
+data/kaggle
+data/chkp3
+data/chkp5
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+venv
 
 # C extensions
 *.so
