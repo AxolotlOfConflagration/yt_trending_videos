@@ -26,8 +26,8 @@ def to_dict(video):
 if __name__ == "__main__":
     config = read_config('config.json')
     start_transaction = lambda: TinyDB('data/not_trending_db.json')
-    # yt = YTDownloader(config['apikey'])
-    yt = YTDownloader(config['apikey_alt'])
+    yt = YTDownloader(config['apikey'])
+    # yt = YTDownloader(config['apikey_alt'])
 
     with open('data/chkp5/data.json') as fh:
         non_trending_movies = json.load(fh)
